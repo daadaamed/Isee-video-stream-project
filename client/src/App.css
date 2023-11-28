@@ -1,0 +1,15 @@
+/** @format */
+
+/** @format */
+* {
+  margin: 0;
+}
+
+.app {
+  background-color: #eee;
+}
+.app__logo {
+  position: absolute;
+  left: 0;
+  top: 0;
+}

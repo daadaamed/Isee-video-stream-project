@@ -1,0 +1,17 @@
+/** @format */
+.adminDashboard__container {
+  background-color: #eee;
+}
+.adminDashboard__users {
+  margin-top: 150px;
+  padding: 20px;
+}
+.adminDashboard__users > h3 {
+  text-align: center;
+}
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+}

@@ -1,0 +1,139 @@
+/** @format */
+
+.videoDetails {
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+  height: 700px;
+  margin-bottom: 10px;
+  display: flex;
+}
+.videoDetails-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  margin: 20px;
+}
+.videoDetailsDetails-infos {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.videoDetails-info {
+  width: 70%;
+  text-decoration: #2196f3;
+  color: #2196f3;
+  text-decoration: bold;
+  object-fit: contain;
+  transition: transform 450ms;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.videoDetails-title {
+  text-align: center;
+  margin: 0;
+  font-size: 24px;
+  /* margin-bottom: 5px; */
+}
+
+.videoDetails-author {
+  font-size: 18px;
+  text-align: left;
+  position: relative;
+
+  /* margin-bottom: 5px; */
+}
+
+.videoDetails-views {
+  text-align: end;
+  font-size: 16px;
+}
+
+.comments-container {
+  align-items: stretch;
+  margin-top: 30px;
+  flex-shrink: 2;
+  display: flex;
+  flex-direction: column;
+}
+.comments-container > h3 {
+  align-self: center;
+  padding-bottom: 20px;
+}
+.comment {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* .comment-content {
+  font-size: 1em;
+} */
+
+.comment-author {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.comment-date {
+  font-size: 0.8em;
+  color: #999;
+  margin-bottom: 5px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+.comment-newComment {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.comment-input {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+.comment-button {
+  /* display: block; */
+  margin: 0 auto;
+  padding: 7px 10px 7px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  /* height: 40px; */
+}
+.btn-delete-comment {
+  align-self: flex-start;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-delete-comment:hover {
+  background-color: #eee;
+}
+.comment-button:hover {
+  background-color: #0069d9;
+}
+.addComment-button {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  text-align: start;
+}
+.addComment-button:hover {
+  background-color: aliceblue;
+  cursor: pointer;
+}

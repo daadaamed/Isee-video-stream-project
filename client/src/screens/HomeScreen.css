@@ -1,0 +1,12 @@
+/** @format */
+.homeScreen {
+  opacity: 0 - 1;
+  background: #eee;
+  /*  linear-gradient(
+    90deg,
+    rgb(241, 241, 246) 0%,
+    rgb(217, 228, 237) 10%,
+    rgb(200, 216, 214) 20%,
+    rgb(235, 243, 245) 50%
+  ); */
+}

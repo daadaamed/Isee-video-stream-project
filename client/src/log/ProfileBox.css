@@ -1,0 +1,45 @@
+/** @format */
+
+.profile-box {
+  width: 400px;
+  height: 150px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  padding-top: 10px;
+  margin-top: 30px;
+}
+
+.profile-box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.profile-name {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.profile-bio {
+  font-size: 16px;
+  text-align: center;
+  color: #777;
+}
+
+.profile-bio::before {
+  content: 'Bio: ';
+  font-weight: bold;
+  color: #444;
+}
+
+.profile-bio:hover {
+  color: #000;
+}

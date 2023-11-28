@@ -1,0 +1,34 @@
+/config/.env
+/node_modules
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/client/node_modules
+/client/.pnp
+/client/.pnp.js
+/client/.env
+
+# testing
+/client/coverage
+
+# production
+/client/build
+
+# misc
+/client/.DS_Store
+/client/.env.local
+/client/.env.development.local
+/client/.env.test.local
+/client/.env.production.local
+
+# npm-debug.log*
+# yarn-debug.log*
+# yarn-error.log*
+
+/client2
+
+# large posts
+ client/public/uploads/posts/6461f6178f238253d3ceaa231686878504433.mp4
+ client/public/uploads/posts/6487ffb54c00bce0567cefec1686825269799.mp4
+ client/public/uploads/posts/6487ffb54c00bce0567cefec1686726831894.mp4
