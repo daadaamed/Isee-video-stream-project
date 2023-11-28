@@ -9,7 +9,6 @@ import LoginScreen from './log/LoginScreen';
 import NotFound from './screens/NotFound';
 import SignupScreen from './log/SignupScreen';
 import ProfilLog from './log/ProfilLog';
-import ProfilePage from './log/ProfilePage';
 import EditProfile from './log/EditProfile';
 import VideoPage from './screens/VideoPage';
 import OtherUserProfil from './log/OtherUserProfil';
